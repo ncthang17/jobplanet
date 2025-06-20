@@ -37,7 +37,6 @@ cd jobplanet-crawler
 
 2. **Install dependencies:**
 pip install selenium beautifulsoup4 pandas tqdm
-
 *(If you have a `requirements.txt`, use `pip install -r requirements.txt` instead.)*
 
 3. **Download Chrome WebDriver** and place it in your system PATH or specify the path in the script.
@@ -68,8 +67,6 @@ python Crawling_Jobplanet.py
 
 | company_id | name                        | search_rating | review_count | overall_rating | 복지/급여 | 워라밸 | 사내문화 | 승진 기회 | 경영진 | 기업 추천율 | CEO 지지율 | 성장 가능성 | 검색기업명      |
 |------------|-----------------------------|---------------|--------------|----------------|-----------|--------|----------|-----------|--------|-------------|------------|-------------|-----------------|
-| 361502     | (주)디에스아키종합건설      | 1.0           | 3            | 1.0            | 1.3       | 1.3    | 1.0      | 1.0       | 1.0    | 0%          | 0%         | 0%          | 디에스아키종합건설 |
-| ...        | ...                         | ...           | ...          | ...            | ...       | ...    | ...      | ...       | ...    | ...         | ...        | ...         | ...             |
 
 ## Error Handling
 
